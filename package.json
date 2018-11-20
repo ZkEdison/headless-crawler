@@ -1,0 +1,27 @@
+{
+  "name": "headless-crawler",
+  "version": "1.0.0",
+  "description": "headless-crawler",
+  "main": "index.js",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"clean": "rm -rf mn/*.jpg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZkEdison/headless-crawler.git"
+  },
+  "keywords": [
+    "node",
+    "crawler"
+  ],
+  "author": "ZkEdison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZkEdison/headless-crawler/issues"
+  },
+  "homepage": "https://github.com/ZkEdison/headless-crawler#readme",
+  "dependencies": {
+    "puppeteer": "^1.10.0"
+  }
+}
